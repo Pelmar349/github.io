@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elmar Perez | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="logo1.png" alt="Elmar Logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="biography.html">Biography</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <h1 class="contact-title">Get In Touch</h1>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <div class="details">
+                        <h3>Email</h3>
+                        <p>perezelmar001@example.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-box">
+                    <i class="fas fa-phone"></i>
+                    <div class="details">
+                        <h3>Phone</h3>
+                        <p>+63 912 345 6789 </p>
+                    </div>
+                </div>
+                
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="details">
+                        <h3>Location</h3>
+                        <p>Pililla, Rizal, Philippines</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+    <input type="hidden" name="access_key" value="e667af48-de5b-4124-ab9f-3aad08fda4a1">
+    <input type="hidden" name="redirect" value="/thank-you.html">
+    
+    <h2>Send Me a Message</h2>
+    <div class="input-box">
+        <input type="text" name="name" required>
+        <span>Full Name</span>
+    </div>
+    
+    <div class="input-box">
+        <input type="email" name="email" required>
+        <span>Email Address</span>
+    </div>
+    
+    <div class="input-box">
+        <input type="text" name="subject" required>
+        <span>Subject</span>
+    </div>
+    
+    <div class="input-box">
+        <textarea name="message" required></textarea>
+        <span>Your Message</span>
+    </div>
+    
+    <button type="submit" class="contact-btn">Send Message</button>
+</form>
+
+        </div>
+    </div>
+</body>
+</html>
